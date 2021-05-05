@@ -425,11 +425,17 @@ Resources:
           ResourceRecords: 
             - !Ref EIP02
 
-Outputs: 
+Outputs:
   Ec2Instance01Id:
     Description: EC2 Instance 01 Id
     Value: !Ref Ec2Instance01
   Ec2Instance02Id:
     Description: EC2 Instance 02 Id
     Value: !Ref Ec2Instance02
+  EIP01:
+    Description: Elastic IP 01
+    Value: !Ref EIP01
+  EIP02:
+    Description: Elastic IP 02
+    Value: !Ref EIP02
 
