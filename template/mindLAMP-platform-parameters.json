@@ -32,11 +32,15 @@
     "ParameterValue": "mindLAMP-platform-ec2-sg"
   },
   {
-    "ParameterKey": "EC2Instance01Name",
+    "ParameterKey": "SshCidrBlock",
+    "ParameterValue": "52.95.4.0/24"
+  },
+  {
+    "ParameterKey": "Ec2Instance01Name",
     "ParameterValue": "mindLAMP-platform-ec2-01"
   },
   {
-    "ParameterKey": "EC2Instance02Name",
+    "ParameterKey": "Ec2Instance02Name",
     "ParameterValue": "mindLAMP-platform-ec2-02"
   }
 ]
