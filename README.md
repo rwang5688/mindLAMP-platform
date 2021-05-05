@@ -1,0 +1,1 @@
+# mindLAMP-platofrm
