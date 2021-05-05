@@ -326,6 +326,7 @@ Resources:
           yum install -y docker
           usermod -a -G docker ec2-user
           hostnamectl set-hostname ${DomainName}
+          mkdir /etc/systemd/system/docker.service.d
           printf "[Service]\nExecStart=\nExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock\n" | tee /etc/systemd/system/docker.service.d/override.conf
           systemctl daemon-reload
           service docker restart
@@ -375,6 +376,7 @@ Resources:
           yum install -y docker
           usermod -a -G docker ec2-user
           hostnamectl set-hostname ${DomainName}
+          mkdir /etc/systemd/system/docker.service.d
           printf "[Service]\nExecStart=\nExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock\n" | tee /etc/systemd/system/docker.service.d/override.conf
           systemctl daemon-reload
           service docker restart
