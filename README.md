@@ -1,1 +1,1 @@
-# mindLAMP-platofrm
+# mindLAMP-platform
