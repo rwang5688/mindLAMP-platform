@@ -1,2 +1,2 @@
 #!/bin/bash
-create-mindLAMP-platform.sh us-west-2 active-only
+create-mindLAMP-platform-v1.sh us-west-2 active-only

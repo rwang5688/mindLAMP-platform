@@ -1,2 +1,2 @@
 #!/bin/bash
-delete-mindLAMP-platform.sh us-west-2 active-passive-10
+delete-mindLAMP-platform-v1.sh us-west-2 active-passive-10

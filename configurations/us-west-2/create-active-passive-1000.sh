@@ -1,2 +1,2 @@
 #!/bin/bash
-create-mindLAMP-platform.sh us-west-2 active-passive-1000
+create-mindLAMP-platform-v1.sh us-west-2 active-passive-1000

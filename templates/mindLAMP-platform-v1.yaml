@@ -1,12 +1,12 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: mindLAMP Platform
+Description: mindLAMP Platform v1
 
 Parameters:
   ProjectName:
     Description: Project name that will be used as the prefix for all deployed resources
     Type: String
     ConstraintDescription: Project name that will be used as the prefix for all deployed resources
-    Default: 'mindLAMP-platform'
+    Default: 'mindLAMP-platform-v1'
   Configuration:
     Description: Configuration that will be deployed
     Type: String
