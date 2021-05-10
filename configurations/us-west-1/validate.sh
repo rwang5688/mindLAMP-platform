@@ -1,1 +1,1 @@
-validate-mindLAMP-platform.sh
+validate-mindLAMP-platform-v1.sh
