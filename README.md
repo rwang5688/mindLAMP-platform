@@ -1,1 +1,1 @@
-# mindLAMP-platform
+# mindLAMP-platform-v1
